@@ -120,7 +120,7 @@ const Benefits = () => {
                 </div>
               </div>
 
-              {/* {item.light && <GradientLight />} */}
+              {item.light && <GradientLight />}
 
               <ClipPath />
             </div>
