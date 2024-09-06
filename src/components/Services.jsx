@@ -26,10 +26,10 @@ const Services = () => {
         <Heading title="About Me." text="In pursuit of new challenges and collaborative opportunities within the ever-evolving field of web development, I welcome connections from fellow enthusiasts and innovators alike. Let's brainstorm and create something remarkable together!" />
 
         <div className="relative">
-          <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
-            <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
+          <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem] max-sm:max-h-[25rem] ">
+            <div className="absolute p-[8rem] max-sm:p-0 top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
               <img
-                className="w-full h-full object-cover md:object-right"
+                className="w-full rounded-xl h-full object-cover md:object-right"
                 width={800}
                 alt="Smartest AI"
                 height={730}
@@ -37,7 +37,7 @@ const Services = () => {
               />
             </div>
 
-            <div className="relative z-1 max-w-[27rem] ml-auto">
+            <div className="relative z-1 max-w-[27rem] ml-[40rem]">
               <h4 className="h4 mb-4">Hi There.</h4>
               <p className="body-2 mb-[3rem] text-n-3 max-sm:text-[1rem]">
               I'm Nikunj, a second-year Computer Science student at Symbiosis Institute of Technology, Pune. My passion lies in crafting captivating websites through front-end development. It's where I can let my creativity run wild, weaving together code and design to create engaging digital experiences.<br />Lately, though, I've found myself drawn to the vast world of cloud computing, operating systems, and networking. The challenge of finding innovative solutions outside my comfort zone excites me, pushing me to explore new horizons. Hackathons have become my playground, where I thrive on the adrenaline of competition and the rush of turning ideas into reality under pressure.
