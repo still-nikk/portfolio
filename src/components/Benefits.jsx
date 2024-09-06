@@ -71,7 +71,7 @@ const Benefits = () => {
     <Section id="projects">
       <div className="container relative z-2">
         <Heading
-          className="md:max-w-md lg:max-w-2xl"
+          className="md:max-w-md lg:max-w-2xl text-center"
           title="Projects I've worked on."
         />
 
@@ -102,7 +102,7 @@ const Benefits = () => {
                   </div>
                 </div>
                 <div className="">
-                  <p className="body-2 mb-6 text-n-3">{item.text}</p>
+                  <p className="body-2 mb-6 text-n-3 max-sm:opacity-0">{item.text}</p>
                 </div>
               </div>
               <div className="flex items-center justify-between mt-auto">
