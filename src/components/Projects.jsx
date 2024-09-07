@@ -95,15 +95,15 @@ const Projects = () => {
   return (
     <Section id="projects" crosses>
       <div className="flex flex-col items-center overflow-hidden max-sm:border-y max-sm:border-dashed max-sm:py-12">
-        <div className="text-5xl max-sm:text-3xl mb-8">Projects I've Worked On.</div>
+        <div className="text-5xl max-sm:text-2xl mb-8">Projects I've Worked On.</div>
 
-        <div className="mb-4 max-sm:mb-8">
+        <div className="mb-4 flex flex-wrap justify-center max-sm:mb-8">
           {projectsNav.map((item, index) => (
             <span
               onClick={(e) => handleClick(e, index)}
               className={`${
                 active === index ? "active-project" : ""
-              } px-4 mr-1 ml-1 border rounded-md hover:cursor-pointer max-sm:px-1 max-sm:text-wrap`}
+              } px-4 mr-1 ml-1 border rounded-md hover:cursor-pointer max-sm:px-1 max-sm:text-wrap mb-2`}
               key={index}
             >
               {item.name}
@@ -113,7 +113,7 @@ const Projects = () => {
 
         {/* Projects Container with fade animation */}
         <div
-          className={`w-[90%] grid gap-[2rem] justify-center custom-grid transition-opacity duration-300 ${
+          className={`w-[90%] grid gap-[2rem] max-sm:gap-0 justify-center custom-grid transition-opacity duration-300 ${
             fade ? "opacity-0" : "opacity-100"
           }`}
         >

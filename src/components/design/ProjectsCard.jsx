@@ -2,7 +2,7 @@ import "./styles.css"; // Adjust the path as needed
 
 const ProjectsCard = ({ item }) => {
   return (
-    <div className="gradient-border">
+    <div className="gradient-border max-sm:scale-[0.8]">
       <div className="p-4 bg-[#0E0C15] rounded-2xl">
         <div className="content rounded-xl ">
           <img
