@@ -28,7 +28,7 @@ const ContactsMe = () => {
   
   return (
     <Section crosses id="contact">
-      <h1 className="justify-center align-middle text-center text-5xl">Contact Me!</h1>
+      <h1 className="max-sm:mt-[-3rem] justify-center align-middle text-center text-5xl">Contact Me!</h1>
       <div className=" mt-[3rem] mx-[20rem] flex align-middle justify-center text-2xl text-center max-sm:mx-1">
         <h1>
         I’d love to hear from you. Whether you have a question, feedback, or just want to say hi, feel free to drop me a message!

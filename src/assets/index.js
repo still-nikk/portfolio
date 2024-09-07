@@ -13,7 +13,6 @@ import homeSmile from "./home-smile.svg";
 import file02 from "./file-02.svg";
 import searchMd from "./search-md.svg";
 import plusSquare from "./plus-square.svg";
-import recording03 from "./recording-03.svg";
 import recording01 from "./recording-01.svg";
 import disc02 from "./disc-02.svg";
 import chromecast from "./chrome-cast.svg";
@@ -28,14 +27,6 @@ import heroBackground from "./hero/hero-background.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
-import discord from "./collaboration/discord.png";
-import figma from "./collaboration/figma.png";
-import framer from "./collaboration/framer.png";
-import notion from "./collaboration/notion.png";
-import photoshop from "./collaboration/photoshop.png";
-import protopie from "./collaboration/protopie.png";
-import raindrop from "./collaboration/raindrop.png";
-import slack from "./collaboration/slack.png";
 
 import service1 from "./services/service-1.jpg";
 import service2 from "./services/service-2.png";
@@ -72,13 +63,12 @@ import benefitIcon1 from "./benefits/icon-1.svg";
 import benefitIcon2 from "./benefits/icon-2.svg";
 import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
-import benefitImage2 from "./benefits/image-2.png";
-import youtubeBG from "./benefits/youtubeBG.png";
-import unidriveBG1 from "./benefits/unidriveBG1.png";
-import unidriveBG2 from "./benefits/unidriveBG2.png";
-import bookBG from "./benefits/bookBG.png";
-import digitalTwinBG from "./benefits/digitalTwinBG.png";
-import nikeBG from "./benefits/nikeBG.png";
+import youtube from "./benefits/youtube.png";
+import unidrive from "./benefits/unidrive.png";
+import book from "./benefits/book.png";
+import digitaltwin from "./benefits/digitaltwin.png";
+import nike from "./benefits/nike.png";
+import employee from "./benefits/employee.jpg";
 
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
@@ -86,13 +76,10 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
-import cpp from "./collaboration/cpp.png";
 import cplusplus from "./collaboration/cplusplus-original.svg";
 import css from "./collaboration/css.svg";
 import git from "./collaboration/git.svg";
 import html from "./collaboration/html.svg";
-import mongodb from "./collaboration/mongodb.svg";
-import mysql from "./collaboration/mysql.svg";
 import react from "./collaboration/react.svg";
 import tailwind from "./collaboration/tailwind.svg";
 import js from "./collaboration/js.svg";
@@ -105,7 +92,6 @@ export {
   brainwave,
   check,
   check2,
-  cpp,
   cplusplus,
   loading1,
   brainwaveSymbol,
@@ -119,7 +105,6 @@ export {
   file02,
   searchMd,
   plusSquare,
-  recording03,
   recording01,
   htmlSVG,
   disc02,
@@ -132,14 +117,6 @@ export {
   heroBackground,
   curve1,
   curve2,
-  discord,
-  figma,
-  framer,
-  notion,
-  photoshop,
-  protopie,
-  raindrop,
-  slack,
   service1,
   service2,
   service3,
@@ -169,13 +146,6 @@ export {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
-  benefitImage2,
-  youtubeBG,
-  unidriveBG1,
-  unidriveBG2,
-  nikeBG,
-  bookBG,
-  digitalTwinBG,
   discordBlack,
   facebook,
   instagram,
@@ -184,8 +154,6 @@ export {
   css,
   git,
   html,
-  mongodb,
-  mysql,
   react,
   tailwind,
   js,
@@ -193,4 +161,10 @@ export {
   portfolio,
   cloud,
   resumeFile,
+  nike,
+  unidrive,
+  employee,
+  digitaltwin,
+  book,
+  youtube,
 };

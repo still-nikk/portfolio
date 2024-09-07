@@ -11,7 +11,7 @@ function openUrl(url) {
 const Collaboration = () => {
   return (
     <Section id="skills" crosses>
-      <div className="container lg:flex">
+      <div className="container lg:flex max-sm:border-y max-sm:border-dashed max-sm:py-12">
         <div className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">Certifications and SkillSet</h2>
 

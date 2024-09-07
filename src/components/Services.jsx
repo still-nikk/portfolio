@@ -22,7 +22,7 @@ import Generating from "./Generating";
 const Services = () => {
   return (
     <Section id="aboutme" crosses>
-      <div className="container">
+      <div className="container max-sm:mb-[-2rem] max-sm:mt-[-2rem]">
         <Heading title="About Me." text="In pursuit of new challenges and collaborative opportunities within the ever-evolving field of web development, I welcome connections from fellow enthusiasts and innovators alike. Let's brainstorm and create something remarkable together!" />
 
         <div className="relative">

@@ -4,10 +4,10 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Collaboration from "./components/Collaboration";
 import Services from "./components/Services";
-import Benefits from "./components/Benefits";
 import { useLayoutEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import ContactMe from "./components/ContactMe";
+import Projects from "./components/Projects";
 
 const App = () => {
   const comp = useRef(null);
@@ -58,7 +58,7 @@ const App = () => {
           <Hero />
           <Collaboration />
           <Services />
-          <Benefits />
+          <Projects />
           <ContactMe />
         </div>
         <ButtonGradient />
