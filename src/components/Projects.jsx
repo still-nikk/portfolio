@@ -97,13 +97,13 @@ const Projects = () => {
       <div className="flex flex-col items-center overflow-hidden max-sm:border-y max-sm:border-dashed max-sm:py-12">
         <div className="text-5xl max-sm:text-2xl mb-8">Projects I've Worked On.</div>
 
-        <div className="mb-4 flex flex-wrap justify-center max-sm:mb-8">
+        <div className="mb-4 flex flex-wrap justify-center max-sm:mb-8 ">
           {projectsNav.map((item, index) => (
             <span
               onClick={(e) => handleClick(e, index)}
               className={`${
                 active === index ? "active-project" : ""
-              } px-4 mr-1 ml-1 border rounded-md hover:cursor-pointer max-sm:px-1 max-sm:text-wrap mb-2`}
+              } px-6 mr-1 ml-1 border py-2 rounded-md hover:cursor-pointer max-sm:px-4 max-sm:text-wrap mb-2`}
               key={index}
             >
               {item.name}
