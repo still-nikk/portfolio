@@ -302,7 +302,7 @@ export const projectsData = [
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: vedicConnect,
-    category: "HTML|CSS",
+    category: "REACT|MERN",
     gitURL: "https://github.com/priyankag12/service-learning-project",
   },
   {
