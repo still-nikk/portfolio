@@ -39,6 +39,8 @@ import {
   book,
   youtube,
   employee,
+  paperLingo,
+  vedicConnect,
 } from "../assets";
 
 export const navigation = [
@@ -285,6 +287,26 @@ export const pricing = [
 export const projectsData = [
   {
     id: "0",
+    title: "Paper-Lingo",
+    text: "A gamified Paper Trading website where you can trade with zero risk and learn more about finance.",
+    backgroundUrl: "./src/assets/benefits/card-5.svg",
+    iconUrl: benefitIcon1,
+    imageUrl: paperLingo,
+    category: "REACT|MERN",
+    gitURL: "https://github.com/priyankag12/mern-project",
+  },
+  {
+    id: "1",
+    title: "Vedic Connect",
+    text: "VedicConnect is an interactive e-learning platform offering organized course access, live sessions via Google API, and event scheduling for seamless academic coordination.",
+    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    iconUrl: benefitIcon2,
+    imageUrl: vedicConnect,
+    category: "HTML|CSS",
+    gitURL: "https://github.com/priyankag12/service-learning-project",
+  },
+  {
+    id: "2",
     title: "UniDrive",
     text: "UniDrive is a fully responsive ride-sharing web application designed for college-going students. It is built using HTML and CSS for the front end, Node.js and Express.js for the backend, and integrates MapBox for mapping functionality. Stripe is used as the payment gateway for transactions.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
@@ -294,7 +316,7 @@ export const projectsData = [
     gitURL: "https://github.com/still-nikk/UniDrive",
   },
   {
-    id: "1",
+    id: "3",
     title: "Digital Twin",
     text: "Digital Twin is a decentralized blockchain application developed on the Zbyte platform. It utilizes IPFS for file storage and smart contracts written in Solidity for decentralized transactions. The app aims to provide a secure and transparent platform for managing digital assets.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
@@ -305,7 +327,7 @@ export const projectsData = [
     gitURL: "https://github.com/still-nikk/Digital-Twin",
   },
   {
-    id: "2",
+    id: "4",
     title: "Employee Manager",
     text: "The Employee Management System is a basic Java application developed using Apache NetBeans and JDBC for database connectivity with MySQL. It allows for the management of employee records, including adding, updating, and deleting employee information.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
@@ -315,7 +337,7 @@ export const projectsData = [
     gitURL: "https://github.com/still-nikk/Basic-Employee-Management-System",
   },
   {
-    id: "3",
+    id: "5",
     title: "Responsive Book Website",
     text: "This project is a responsive website for browsing and purchasing books, built using React and Tailwind CSS. It provides a user-friendly interface for exploring a catalog of books and making purchases online. This Project kickstarted my React journey",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
@@ -325,27 +347,6 @@ export const projectsData = [
     category: "REACT|MERN",
     gitURL: "https://github.com/still-nikk/Book-shop-website",
   },
-  {
-    id: "4",
-    title: "YouTube Clone",
-    text: "A simple YouTube clone created using basic HTML and CSS. This project mimics the basic layout and functionality of YouTube, allowing users to view videos and interact with the interface. This was my first hands-on front-end project.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: youtube,
-    category: "HTML|CSS",
-    gitURL: "https://github.com/still-nikk/YouTube-Clone",
-  },
-  {
-    id: "5",
-    title: "Nike Landing Page",
-    text: "This project is a landing page clone of Nike's website, built using React and Tailwind CSS. It replicates the design and style of Nike's landing page, providing an immersive experience for users.",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: nike,
-    category: "REACT|MERN",
-    gitURL: "https://github.com/still-nikk/Nike-Clone",
-  },
-  
 ];
 
 export const socials = [

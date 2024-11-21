@@ -52,7 +52,6 @@ import notification2 from "./notification/image-2.png";
 import notification3 from "./notification/image-3.png";
 import notification4 from "./notification/image-4.png";
 
-
 import benefitCard1 from "./benefits/card-7.svg";
 import benefitCard2 from "./benefits/card-2.svg";
 import benefitCard3 from "./benefits/card-3.svg";
@@ -69,6 +68,8 @@ import book from "./benefits/book.png";
 import digitaltwin from "./benefits/digitaltwin.png";
 import nike from "./benefits/nike.png";
 import employee from "./benefits/employee.jpg";
+import paperLingo from "./benefits/paper-lingo.png";
+import vedicConnect from "./benefits/vedicConnect.png";
 
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
@@ -121,7 +122,7 @@ export {
   service2,
   service3,
   pfpRight,
-  camera, 
+  camera,
   lines,
   stars,
   coins,
@@ -167,4 +168,6 @@ export {
   digitaltwin,
   book,
   youtube,
+  paperLingo,
+  vedicConnect,
 };
